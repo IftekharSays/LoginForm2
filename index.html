@@ -6,12 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome cdn link for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 <body>
     
+    <!-- main div file+ -->
+    <div class="wrapper">
 
+        <!-- main header -->
+        <header>Login Form</header>
+        
+        <!-- main form -->
+        <form action="">
+
+            <!-- Email -->
+            <div class="field email">
+                <div class="input-area">
+                    <input type="text" placeholder="Email Address">
+                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error-text">Email can't be blank</div>
+            </div>
+
+            <!-- Password -->
+            <div class="field password">
+                <div class="input-area">
+                    <input type="password" placeholder="password">
+                    <i class="fas fa-envelope"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <div class="error-text">Password can't be blank</div>
+            </div>
+
+            <!-- forgot password -->
+            <div class="pass-link"><a href="#">Forgot Password?</a></div>
+
+            <!-- submit button -->
+            <input type="submit" value="Login">
+        </form>
+
+        <!-- sign up -->
+        <div class="signup-link">Not yet member?<a href="#">Signup Now</a></div>
+
+    </div>
 
 
     <script src="script.js"></script>
+
+    <!-- font awesome cdn js -->
+    <script src="https://use.fontawesome.com/bda587dbca.js"></script>
 </body>
 </html>
