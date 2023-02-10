@@ -1,71 +1,69 @@
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-body{
-    display: flex;
-    min-height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background: #5372F0;
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #5372f0;
 }
-.wrapper{
-    background: #ffffff;
-    width: 380px;
-    padding: 40px 30px 50px 30px;
-    border-radius: 5px;
-    text-align: center;
+.wrapper {
+  background: #ffffff;
+  width: 380px;
+  padding: 40px 30px 50px 30px;
+  border-radius: 5px;
+  text-align: center;
 }
-.wrapper header{
-    font-size: 35px;
-    font-weight: 600s;
+.wrapper header {
+  font-size: 35px;
+  font-weight: 600s;
 }
-.wrapper form{
-    margin: 40px 0;
+.wrapper form {
+  margin: 40px 0;
 }
-form .field .input-area{
-    position: relative;
+form .field .input-area {
+  position: relative;
 }
-form input{
-    height: 50px;
-    width: 100%;
-    border-radius: 5px;
-    font-size: 18px;
-    outline: none;
-    border: 1px solid #bfbfbf;
-    border-bottom-width: 2px;
-    padding: 0 45px;
+form input {
+  height: 50px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 18px;
+  outline: none;
+  border: 1px solid #bfbfbf;
+  border-bottom-width: 2px;
+  padding: 0 45px;
 }
-form input::placeholder{
-    color: #bfbfbf;
-    font-size: 17px;
+form input::placeholder {
+  color: #bfbfbf;
+  font-size: 17px;
 }
-
-
-form .field{
-    width: 100%;
-    margin-bottom: 20pxgit ;
+form .field {
+  width: 100%;
+  margin-bottom: 20pxgit;
 }
-form .field i{
-    position: absolute;
-    top: 50%;
-    pointer-events: none;
-    transform: translateY(-50%)
+form .field i {
+  position: absolute;
+  top: 50%;
+  pointer-events: none;
+  transform: translateY(-50%);
 }
-form .field .icon{
-    left: 15px;
-    color: #bfbfbf;
+form .field .icon {
+  left: 15px;
+  color: #bfbfbf;
 }
-form .field .error-icon{
-    right: 15px;
-    color: #dc3545;
+form .field .error-icon {
+  right: 15px;
+  color: #dc3545;
 }
-form .field .error-text{
-    color: #dc3545;
-    margin-top: 5px;
-    text-align: left;
+form .field .error-text {
+  color: #dc3545;
+  margin-top: 5px;
+  text-align: left;
 }
