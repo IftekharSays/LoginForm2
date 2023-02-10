@@ -1,5 +1,5 @@
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -20,4 +20,25 @@ body{
     background: #ffffff;
     width: 380px;
     padding: 40px 30px 50px 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.wrapper header{
+    font-size: 35px;
+    font-weight: 600s;
+}
+
+.wrapper form{
+    margin: 40px 0;
+}
+
+form input{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 1px solid #bfbfbf;
+    border-bottom-width: 2px;
+    padding: 0 15px;
 }
